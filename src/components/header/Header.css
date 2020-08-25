@@ -1,0 +1,35 @@
+.header img {
+    width: 200px;
+}
+
+.header {
+    text-align: center;
+}
+
+.nav-bar {
+    background-color: #2a2a2a;
+}
+
+.nav-bar .container {
+    width: 1240px;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: start;
+    font-size: 1.07rem;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0.8rem;
+    color: aliceblue;
+    transition: all 0.4s linear;
+    letter-spacing: 1px;
+}
+
+nav a:hover {
+    background-color: #e4e4e4;
+    color: #FF9800;
+}
