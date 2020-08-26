@@ -1,0 +1,11 @@
+.cart-content {
+    margin-left: 2rem;
+}
+
+.cart-content h3+p {
+    text-align: center;
+}
+
+.cart-content h3 {
+    text-align: center;
+}
