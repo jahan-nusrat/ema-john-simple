@@ -5,16 +5,16 @@ import './Shop.css';
 
 class Shop extends Component {
 	render () {
-		const { items } = this.props;
+		const { items, selectItems, product, cart } = this.props;
 		const sliceData = items.slice(0, 40);
 		const propsItem = sliceData.map((item) => {
-			return <ShopItems key={item.key} item={item} />;
+			return <ShopItems key={item.key} item={item} selectItems={selectItems} />;
 		});
 		return (
 			<div className="shop-container">
 				<div className="product-container">{propsItem}</div>
 				<div className="cart-container">
-					<Cart />
+					<Cart product={product} cart={cart} />
 				</div>
 			</div>
 		);
