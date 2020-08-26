@@ -1,0 +1,19 @@
+.shop-container {
+    display: flex;
+    justify-content: center;
+}
+
+.product-container {
+    flex-basis: 70%;
+    max-width: 70%;
+}
+
+.product-container ul {
+    list-style: none;
+}
+
+.cart-container {
+    flex-basis: 20%;
+    max-width: 20%;
+    border-left: 1px solid #bbbbbb;
+}
