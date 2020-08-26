@@ -4,8 +4,22 @@
 
 .cart-content h3+p {
     text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
 }
 
 .cart-content h3 {
     text-align: center;
+}
+
+.cart-content h3+p~p {
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
+.cart-content h4 {
+    text-align: center;
+    color: #D94A38;
+    margin-top: 1rem;
 }

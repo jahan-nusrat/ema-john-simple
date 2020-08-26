@@ -12,6 +12,10 @@
     padding: 0 1.5rem;
 }
 
+.product-content p {
+    line-height: 1.6;
+}
+
 .btn {
     background-color: goldenrod;
     border: 1px solid #bbbbbb;

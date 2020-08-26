@@ -14,8 +14,9 @@ function Cart ({ cart }) {
 
 	return (
 		<div className="cart-content">
-			<h3>Order Summery</h3>
+			<h3 style={{ color: '#A95400' }}>Order Summery</h3>
 			<p>Items Ordered: {cart.length} </p>
+			<hr />
 			<p>Product price: ${totalPrice.toFixed(2)}</p>
 			<p>
 				<small>Shipping cost:${shippingCost.toFixed(2)}</small>
